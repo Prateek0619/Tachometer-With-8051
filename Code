@@ -1,4 +1,5 @@
 # Rember to use Programer attached for Burning the Hex file on 8051
+# Use divers for intallation and connecting AVR board for programing 8051 usig SPI protocol
 ORG 000H
 MOV DPTR,#LUT              // moves the addres of LUT to DPTR
 MOV P1,#00000000B          // Sets P1 as an output port
